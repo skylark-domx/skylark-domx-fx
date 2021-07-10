@@ -1,0 +1,1 @@
+{"version":3,"sources":["explode.js"],"names":["define","transits","fx","explode"],"mappings":";;;;;;;AAAAA,QACI,wBACA,QACF,SAASC,EAASC,GACnB,OAAOA,EAAGC,QAAUF,EAASE","file":"../explode.js","sourcesContent":["define([\r\n    \"skylark-domx-transits\",\r\n    \"./fx\"\r\n],function(transits,fx) {\r\n\treturn fx.explode = transits.explode;\r\n});\r\n"]}

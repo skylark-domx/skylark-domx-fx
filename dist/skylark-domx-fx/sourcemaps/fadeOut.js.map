@@ -1,0 +1,1 @@
+{"version":3,"sources":["fadeOut.js"],"names":["define","transits","fx","fadeOut"],"mappings":";;;;;;;AAAAA,QACI,wBACA,QACF,SAASC,EAASC,GAEhB,OAAOA,EAAGC,QAAUF,EAASE","file":"../fadeOut.js","sourcesContent":["define([\r\n    \"skylark-domx-transits\",\r\n    \"./fx\"\r\n],function(transits,fx) {\r\n\r\n    return fx.fadeOut = transits.fadeOut;\r\n});"]}

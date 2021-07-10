@@ -1,0 +1,1 @@
+{"version":3,"sources":["show.js"],"names":["define","transits","fx","show"],"mappings":";;;;;;;AAAAA,QACI,wBACA,QACF,SAASC,EAASC,GAEhB,OAAOA,EAAGC,KAAOF,EAASE","file":"../show.js","sourcesContent":["define([\r\n    \"skylark-domx-transits\",\r\n    \"./fx\"\r\n],function(transits,fx) {\r\n\r\n    return fx.show = transits.show;\r\n});"]}
