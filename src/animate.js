@@ -1,9 +1,9 @@
 define([
     "skylark-langx/langx",
     "skylark-domx-transits/transit",
-    "skylark-domx-animates/animate",
+    "skylark-domx-animates/animation",
     "./fx"
-], function(langx, transit,_animate,fx) {
+], function(langx, transit,animation,fx) {
 
     /*   
      * Perform a custom animation of a set of CSS properties.
@@ -16,7 +16,7 @@ define([
      */
     function animate(elm, properties, duration, ease, callback, delay) {
         if (langx.isString(properties)) {
-            return _animate(elm,properties,duration,ease,callback,delay);
+            return animation(elm,properties,duration,ease,callback,delay);
         } else {
             return transit(elm,properties,duration,ease,callback,delay);
         }
