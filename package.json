@@ -26,7 +26,7 @@
   "dependencies": {
     "skylark-domx-animates": "git+https://github.com/skylark-domx/skylark-domx-animates.git",
     "skylark-domx-transits": "git+https://github.com/skylark-domx/skylark-domx-transits.git",
-    "skylark-langx": "git+https://github.com/skylark-langx/skylark-langx.git#master"
+    "skylark-langx": "git+https://github.com/skylark-langx/skylark-langx.git"
   },
   "engines": {
     "node": ">=0.8.0"
